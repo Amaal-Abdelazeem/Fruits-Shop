@@ -1,0 +1,95 @@
+/*************** All Pages ****************/
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+}
+ul{
+    background-color:#F9F6F9;
+}
+li{
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+    font-family: Aptos;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+ul li:first-child {
+   margin-left: 150px;
+}
+li[class="home"]{
+    margin-left: 400px;
+ }
+p[class="subscribe"]:hover{
+    cursor: pointer;
+}
+li[class="search"]:hover{
+    cursor: pointer;
+}
+/*************** Home ****************/
+.contact, .shop{
+    cursor: pointer;
+}
+/*************** Fruits ****************/
+.buy_now{
+    border: 1px solid black; 
+    width: 200px; 
+    height: 30px; 
+    padding: 10px;
+    margin-top: 50px;
+    text-align: center; 
+    background-color: black; 
+    color: white;
+
+}
+span[class="buy_now"]:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+#best_fresh_orange, #best_fresh_guava, #best_fresh_grapes{
+    font-size: 25px;
+}
+/*************** Services ****************/
+#orange, #grapes, #guava{
+    color: #FF6D2D;
+    text-align: center;
+    margin: 10px;
+}
+.orange_td, .grapes_td, .guava_td{
+    text-align: center;
+} 
+td[class]:hover{
+    border-top: 5px solid #FF6D2D;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+span.read_more{
+     border: 1px solid black; 
+    width: 200px; 
+    height: 30px; 
+    padding: 10px;
+    margin-top: 50px;
+    text-align: center; 
+    background-color: black; 
+    color: white;
+}
+span[class="read_more"]:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+/*************** Contact Us ****************/
+input[class="name"],input[class="phone"],input[class="email"],input[class="message"]{
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid black;
+    display: inline-block;
+    width: 100%;
+    height: 30px; 
+}
+p[class="send"]:hover{
+    cursor: pointer;
+}
